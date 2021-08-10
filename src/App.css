@@ -1,0 +1,9 @@
+.user{
+    margin: 20px;
+}
+.address, .company{
+    margin-left: 40px;
+}
+.geo{
+    margin-left: 60px;
+}
