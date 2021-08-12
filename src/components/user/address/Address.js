@@ -1,4 +1,4 @@
-import Geo from "./Geo";
+import Geo from "../geo/Geo";
 
 function Address({street,suite,city,zipcode,geo}) {
     return (

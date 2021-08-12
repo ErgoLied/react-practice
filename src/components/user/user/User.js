@@ -1,5 +1,5 @@
-import Address from "./Address";
-import Company from "./Company";
+import Address from "../address/Address";
+import Company from "../company/Company";
 
 function User({id, name, username, email, address, phone, website, company}) {
     return (
