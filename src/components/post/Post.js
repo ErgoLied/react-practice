@@ -10,7 +10,9 @@ function Post({items}) {
     })
     return (
         <div className={'posts'}>
-            {items.id} - {items.title} - read more...
+            <div>
+                {items.id} - {items.title} - read more...
+            </div>
             <div className={'comms'}>
                 <Comments items={comms}/>
             </div>
