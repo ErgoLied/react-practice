@@ -16,4 +16,15 @@ const addCar = (car) => {
         .then((response) => response.json());
 }
 
-export {getCars, addCar}
+const editCar = (car, id) => {
+    return fetch(url + '/' + id, {
+        method: 'PUT',
+        body: JSON.stringify(car),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
+    })
+        .then((response) => response.json());
+}
+
+export {getCars, addCar, editCar}

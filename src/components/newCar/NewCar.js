@@ -8,9 +8,9 @@ export default function NewCar() {
         setFormState({...formState, [ev.target.name]: ev.target.value});
     }
 
-    const saveCar = (ev) => {
-        ev.preventDefault();
+    const saveCar = () => {
         addCar(formState).then();
+
     }
 
   return (
