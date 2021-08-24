@@ -1,5 +1,5 @@
 // GET http://<IP>/api/v1/cars
-const url='http://195.72.146.25/api/v1/cars';
+const url='http://91.201.233.14/api/v1/cars';
 const getCars = () => {
     return fetch(url)
         .then((response) => response.json());
