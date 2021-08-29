@@ -1,8 +1,8 @@
 export default function Car({item, edit, steal}) {
-    let clickSteal = () => {
+    const clickSteal = () => {
         steal(item.id);
     }
-    let clickEdit = () => {
+    const clickEdit = () => {
         edit(item);
     }
   return (
